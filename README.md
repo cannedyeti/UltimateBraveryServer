@@ -6,6 +6,6 @@
 
 1. `git clone`
 2. `npm i`
-3. Install mongo on your local machine. Mac OS [instructions](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/) can be found here.
+3. Install mongo on your local machine. Mac OS [instructions](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/) can be found here. Windows [instructions](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/) can be found here.
 4. Ensure mongo is running.
 5. To start the server use `npm start`
