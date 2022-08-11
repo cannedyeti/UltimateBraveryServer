@@ -13,6 +13,12 @@ app.use(express.json())
 // api routes
 app.use('/api/patch', require('./routes/patch'));
 
+app.get('/', (req, res) => {
+    res.json({
+        message: "Hello backend"
+    })
+})
+
 
 // global error handler
 app.use(errorHandler);
